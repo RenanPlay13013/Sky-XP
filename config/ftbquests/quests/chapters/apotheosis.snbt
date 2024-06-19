@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "hexagon"
+	filename: "apotheosis"
+	group: ""
+	icon: "apotheosis:mythic_material"
+	id: "40B0A2E0C2F9246E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "2A65525784753B5F"
+			subtitle: "Common!"
+			tasks: [{
+				id: "4DC4DF0F4650DAEB"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "5FD2B6FB77DC7F0D"
+			subtitle: "Uncommon!"
+			tasks: [{
+				id: "61AFD1365CBAFAF6"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "19547B9F9A33392D"
+			subtitle: "Rare!"
+			tasks: [{
+				id: "765579459AB5892E"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "7AFDDBE73892AB06"
+			subtitle: "Epic!"
+			tasks: [{
+				id: "7F8C66FA91D7B36A"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0582FFF89D2C47F8"]
+			id: "5003A125D6DB8843"
+			subtitle: "Mythic!"
+			tasks: [{
+				id: "256CDF701D479D9B"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "0E385363F618E41B"
+			tasks: [{
+				id: "793DF2FBC7D5CB4D"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The Gems will be destroyed in the process."
+				""
+				"&6This lets you keep the item.&r"
+			]
+			id: "0E45B80780B172A7"
+			subtitle: "Keep the item!"
+			tasks: [{
+				id: "6E9809EE56090E0A"
+				item: "apotheosis:vial_of_expulsion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			description: [
+				"Use in a Smithing Table to unsocket Gems from an item."
+				""
+				"The item will be destroyed in the process."
+				""
+				"&6This lets you keep the Gems.&r"
+			]
+			id: "49E0EFCC32F494FB"
+			subtitle: "Keep the Gems!"
+			tasks: [{
+				id: "633C33DED27B6561"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "320538F6EC1EEB22"
+			tasks: [{
+				id: "3C1053D116653D57"
+				item: "apotheosis:vial_of_unnaming"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "6E7DE4C920AB864D"
+			tasks: [{
+				id: "74AABE36336D96A2"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E7DE4C920AB864D"
+				"7AFDDBE73892AB06"
+			]
+			id: "0582FFF89D2C47F8"
+			tasks: [{
+				id: "17A2B25D54F62E9B"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "3503EF6239B80645"
+			tasks: [{
+				id: "799BB53A7000570D"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			id: "60E240057442D669"
+			tasks: [{
+				id: "051C89FA61A0077F"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E385363F618E41B"]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "3979730388188E0C"
+			tasks: [
+				{
+					id: "058B44924825DB6A"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					id: "399D0C17CF0C9497"
+					item: "apotheosis:superior_sigil_of_socketing"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Tudo é fabricável!"]
+	title: "Apotheosis"
+}
